@@ -9,7 +9,6 @@ class Producto
 	public $Codigo;
 	public $Nombre;
 	public $Categoria;
-	public $Proveedor;
 
 
 
@@ -19,7 +18,8 @@ class Producto
 	}
 
 	private function GenerarConexion(){
-		
+		$objPdo = new Conexion("northwind", "root", "");
+		$this->Pdo=$objPdo->Conectar();
 	}
 
 
