@@ -10,10 +10,7 @@ class Producto
 	public $Nombre;
 	public $Categoria;
 	public $Proveedor;
-	public $Precio;
-	public $Stock;
-	private $Pdo;
-	private $Contro;
+
 
 
 	function __construct()
@@ -22,8 +19,7 @@ class Producto
 	}
 
 	private function GenerarConexion(){
-		$objPdo = new Conexion("northwind", "root", "");
-
+		
 	}
 
 
