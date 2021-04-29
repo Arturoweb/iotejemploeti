@@ -13,7 +13,7 @@ class Producto
 	public $Precio;
 	public $Stock;
 	private $Pdo;
-
+	private $Contro;
 
 
 	function __construct()
