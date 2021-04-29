@@ -1,0 +1,37 @@
+body{background:Gris; width: 30%; align-items: center;margin: 0 auto;}
+
+.form {
+  background: #ff0000
+   width: 30%;
+   font-family:'Montserrat',
+   sans-serif;
+    
+   }
+input{width:100%;padding:10px;box-sizing:border-box;
+      background:White;outline:none;
+      resize:none;
+      border:0;
+      font-family:'Montserrat',
+      sans-serif;transition:all .3s;border-bottom:2px solid #bebed2}
+input:focus{border-bottom:2px solid #78788c}
+select{
+      width:100%;padding:10px;box-sizing:border-box;
+      background:White;outline:none;
+      resize:none;
+      border:0;
+      font-family:'Montserrat',
+      sans-serif;transition:all .3s;border-bottom:2px solid #bebed2
+
+}
+p:before{content:attr(type);display:block;margin:28px 0 0;
+  font-size:14px;}
+
+ 2{
+  text-align: center;
+  color: SteelBlue;
+ }
+button{float:right;padding:8px 12px;margin:8px 0 0;
+  font-family:'Montserrat',
+  sans-serif;border:2px 
+  solid #78788c;
+  cursor:pointer;transition:all .3s}
