@@ -23,7 +23,7 @@ class Producto
 
 	private function GenerarConexion(){
 		$objPdo = new Conexion("northwind", "root", "");
-		$this->Pdo=$objPdo->Conectar();
+
 	}
 
 
