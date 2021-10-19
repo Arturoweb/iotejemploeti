@@ -10,10 +10,6 @@
 	class ControladorProducto
 	{
 		
-		function __construct()
-		{
-			
-		}
-
+		
 	}
 ?>
